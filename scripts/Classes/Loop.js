@@ -58,40 +58,6 @@ export class Loop {
     return row;
   }
 
-  // setUpLoop(loop) {
-  //   Tone.Transport.cancel(0);
-
-  //   for (let i = 0; i < loop.parts.length; i++) {
-  //     let part = loop.parts[i];
-  //     if (typeof part.pattern[0] == "number") {
-  //       part.pattern = this.convertPatternToNotes(part.pattern, part.note);
-  //     }
-  //     this.createLoop(part);
-  //   }
-
-  //   Tone.Transport.bpm.value = loop.tempo;
-  // }
-
-  // convertPatternToNotes(pattern, note) {
-  //   for (let i = 0; i < pattern.length; i++) {
-  //     if (pattern[i] == 0) {
-  //       pattern[i] = null
-  //     } else {
-  //       pattern[i] = note;
-  //     }
-  //   }
-  //   return pattern;
-  // }
-
-  // createLoop(part) {
-  //   var sequence = new Tone.Sequence((time, note) => {
-  //     if (part.show) {
-  //       this.visualCallback(part.name);
-  //     }
-  //     part.source.triggerAttackRelease(note, "8n", time);
-  //   }, part.pattern).start(0);
-  // }
-
   // visualCallback(name) {
   //   var name = name.toLowerCase().replace(" ", "-");
   //   var row = Array.from(this.example.getElementsByClassName(name + "-box"));
