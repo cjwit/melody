@@ -57,8 +57,12 @@ export function setUpLoop(loop) {
   if (typeof loop.parts[0].pattern[0] == "number") {
     needsConverting = true;
     source = createDrumSampler();
+    const gainNode = new Tone.Gain(0).toDestination();
+    source.connect(gainNode);
   } else {
     source = createSynth();
+    const gainNode = new Tone.Gain(1).toDestination();
+    source.connect(gainNode);
   }
   
   var sequences = [];

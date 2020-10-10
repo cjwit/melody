@@ -2,6 +2,7 @@ import { Loop } from './Classes/Loop.js';
 import {PlayButton } from './Classes/PlayButton.js';
 import { loops } from './loops.js';
 import { setUpLoop } from './audio.js';
+import { Tone } from 'tone/build/esm/core/Tone';
 
 console.log("connected");
 
