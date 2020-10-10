@@ -6,61 +6,8 @@ export class Loop {
     this.tempo = data.tempo;
     this.labelWidth = 6.0;
     this.domObject = document.getElementById(tagId);
-
-    // this.makePlayButton(this.loops[0]);
-
     this.makeRows();
   }
-
-  // makePlayButton(loop, btnClass = null) {
-  //   var btnText = loop.btnText;
-  //   var button = document.createElement("span");
-  //   button.classList.add("btn");
-  //   button.classList.add("play-button");
-  //   button.innerText = btnText;
-  //   if (btnClass) {
-  //     button.classList.add(btnClass);
-  //   }
-
-  //   button.addEventListener('click', async () => {
-
-  //     // start playing if stopped
-  //     if (button.innerText == btnText) {
-  //       this.stopAllExamples();
-  //       this.setUpLoop(loop);
-
-  //       await Tone.start();
-
-  //       if (loop.audio) {
-  //         loop.audioFile = new Audio(loop.audio);
-  //         loop.audioFile.play();
-  //       }
-
-  //       Tone.Transport.start("+0.01")
-  //       button.innerText = "Stop"
-
-  //     // stop if playing
-  //     } else {
-  //       Tone.Transport.stop();
-
-  //       if (loop.audioFile) {
-  //         loop.audioFile.pause();
-  //         loop.audioFile.currentTime = 0;
-  //       }
-
-  //       button.innerText = btnText;
-  //     }
-  //   })
-
-  //   this.example.appendChild(button); 
-  // }
-
-  // makeTitle() {
-  //   var titleSpan = document.createElement("span");
-  //   titleSpan.classList.add("title");
-  //   titleSpan.innerText = this.data.title;
-  //   this.example.appendChild(titleSpan)
-  // }
 
   makeRows() {
     var rows = 0;
@@ -110,19 +57,6 @@ export class Loop {
     row.appendChild(rowName);
     return row;
   }
-
-  // stopAllExamples() {
-  //   var playButtons = Array.from(document.getElementsByClassName("play-button"));
-  //   playButtons.forEach(button => {
-  //     if (button.innerText == "Stop") {
-  //       button.click();
-  //     }
-  //   })
-
-  //   // reset all active boxes
-  //   var activeBoxes = Array.from(document.getElementsByClassName("active-box"));
-  //   activeBoxes.forEach(box => { box.classList.remove("active-box") });
-  // }
 
   // setUpLoop(loop) {
   //   Tone.Transport.cancel(0);
