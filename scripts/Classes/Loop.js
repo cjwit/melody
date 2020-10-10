@@ -1,5 +1,3 @@
-import * as Tone from "tone";
-
 export class Loop {
   constructor(tagId, data) {
     this.tagId = tagId;
@@ -8,7 +6,6 @@ export class Loop {
     this.tempo = data.tempo;
     this.labelWidth = 6.0;
     this.domObject = document.getElementById(tagId);
-    console.log(this.domObject, tagId, document.getElementsByClassName("loop"));
 
     // this.makePlayButton(this.loops[0]);
 

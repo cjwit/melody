@@ -790,6 +790,21 @@ input {
   text-indent: 0px;
 }
 
+#playButton {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #570E51;
+  border-radius: 5px;
+  color: #3A0035;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+#playButton:hover {
+  background-color: #74276D;
+  color: white;
+}
+
 .effects {
   border: 2px solid #570E51;
   border-radius: 5px;

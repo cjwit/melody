@@ -4,6 +4,22 @@ $red-3: #74276D;	// Main Primary color */
 $red-4: #570E51;
 $red-5: #3A0035;
 
+#playButton {
+  width: 100%;
+  text-align: center;
+  border: 2px solid $red-4;
+  border-radius: 5px;
+  color: $red-5;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    background-color: $red-3;
+    color: white;
+  }
+}
+
 .effects {
   border: 2px solid $red-4;
   border-radius: 5px;
