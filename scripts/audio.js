@@ -51,23 +51,24 @@ function createLoop(part, source) {
   return sequence;
 }
 
-export function setUpLoop(loop) {
+// START HERE: work out chaining and dynamic effect changes
+export function setUpLoop(loop, gainNode, effect1 = null, effect2 = null) {
   var source;
   var needsConverting = false;
   if (typeof loop.parts[0].pattern[0] == "number") {
     needsConverting = true;
     source = createDrumSampler();
-    const gainNode = new Tone.Gain(0.5).toDestination();
     source.connect(gainNode);
   } else {
     source = createSynth();
-    const gainNode = new Tone.Gain(1).toDestination();
-    const autoWah = new Tone.AutoWah(50, 6, -30).toDestination();
     source.connect(gainNode);
-    source.connect(autoWah);
-    autoWah.Q.value = 10;
+    if (effect1 && effect2) {
+      source.chain(effect1, effect2);
+    } else if (effect1) {
+      source.connect(effect1);
+    }
   }
-  
+
   var sequences = [];
   for (let i = 0; i < loop.parts.length; i++) {
     let part = loop.parts[i];
