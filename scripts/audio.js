@@ -62,7 +62,10 @@ export function setUpLoop(loop) {
   } else {
     source = createSynth();
     const gainNode = new Tone.Gain(1).toDestination();
+    const autoWah = new Tone.AutoWah(50, 6, -30).toDestination();
     source.connect(gainNode);
+    source.connect(autoWah);
+    autoWah.Q.value = 10;
   }
   
   var sequences = [];

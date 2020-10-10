@@ -21,27 +21,6 @@ $red-5: #3A0035;
   }
 }
 
-.effects {
-  border: 2px solid $red-4;
-  border-radius: 5px;
-  color: $red-5;
-  background-color: $red-1;
-  padding: 7em 1em;
-  margin-bottom: 1em;
-
-  .title {
-    display: inline-block;
-    padding-left: 1em;
-    color: $red-4;
-    font-weight: bold;
-    padding-bottom: 1em;
-    
-    @include small {
-      padding-left: 0;
-    }
-  }
-}
-
 .loop {
   border: 2px solid $red-4;
   border-radius: 5px;

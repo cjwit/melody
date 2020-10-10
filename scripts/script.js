@@ -1,5 +1,6 @@
 import { Loop } from './Classes/Loop.js';
-import {PlayButton } from './Classes/PlayButton.js';
+import { PlayButton } from './Classes/PlayButton.js';
+import { EffectsUI } from './Classes/EffectsUI.js';
 import { loops } from './loops.js';
 import { setUpLoop } from './audio.js';
 
@@ -15,3 +16,4 @@ const bassSequences = setUpLoop(loops.bassLoop);
 const drumSequences = setUpLoop(loops.drumLoop);
 
 // create filter listeners
+const synthEffects = new EffectsUI("synthEffects");
