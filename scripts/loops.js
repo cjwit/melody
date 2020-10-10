@@ -24,17 +24,12 @@ var drumLoop = {
     {
       name: "Kick drum",
       note: "A3",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 1],
+      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
     },
     {
       name: "Snare drum",
       note: "A2",
-      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
-    },
-    {
-      name: "High hat",
-      note: "A1",
-      pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+      pattern: [0, 0, 1, 1, 0, 0, 1, 0],
     },
     {
       name: "Cowbell",
