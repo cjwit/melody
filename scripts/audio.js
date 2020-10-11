@@ -10,7 +10,7 @@ import bongo2 from "../audio/bongo2.mp3";
 import tom3 from "../audio/tom3.mp3";
 import cowbell from "../audio/cowbell.mp3";
 
-function createDrumSampler() {
+export function createDrumSampler() {
   const drumSampler = new Tone.Sampler({
     urls: {
       A1: hihat,
@@ -28,7 +28,7 @@ function createDrumSampler() {
   return drumSampler;
 }
 
-function createSynth() {
+export function createSynth() {
   const synth = new Tone.Synth().toDestination();
   return synth;
 }
@@ -51,22 +51,10 @@ function createLoop(part, source) {
   return sequence;
 }
 
-// START HERE: work out chaining and dynamic effect changes
-export function setUpLoop(loop, gainNode, effect1 = null, effect2 = null) {
-  var source;
+export function setUpLoop(loop, source) {
   var needsConverting = false;
   if (typeof loop.parts[0].pattern[0] == "number") {
     needsConverting = true;
-    source = createDrumSampler();
-    source.connect(gainNode);
-  } else {
-    source = createSynth();
-    source.connect(gainNode);
-    if (effect1 && effect2) {
-      source.chain(effect1, effect2);
-    } else if (effect1) {
-      source.connect(effect1);
-    }
   }
 
   var sequences = [];
