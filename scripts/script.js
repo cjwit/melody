@@ -21,19 +21,37 @@ const melodyGainNode = new Tone.Gain(1).toDestination();
 melodySynth.connect(melodyGainNode);
 
 const bassSynth = createSynth();
+const bassGainNode = new Tone.Gain(1).toDestination();
+bassSynth.connect(bassGainNode);
 
 // add effects
-const melodyPhaser = new Tone.Phaser({
-  frequency: 15,
-  octaves: 5,
-  baseFrequency: 1000
+const melodyEffect1 = new Tone.Distortion({
+  distortion: 10,
+  wet: 0.5,
+})
+
+const melodyEffect2 = new Tone.FeedbackDelay({
+  delayTime: "8n",
+  feedback: 0.7,
+  maxDelay: "4n",
+  wet: 0.5
 }).toDestination();
-melodyPhaser.Q.value = 5;
 
-const melodyAutoWah = new Tone.AutoWah(50, 6, -30).toDestination();
-melodyAutoWah.Q.value = 5;
+melodySynth.chain(melodyEffect1, melodyEffect2);
 
-melodySynth.chain(melodyAutoWah, melodyPhaser);
+const bassEffect1 = new Tone.BitCrusher({ 
+  bits: 2,
+  wet: 0.5
+}).toDestination();
+
+const bassEffect2 = new Tone.Chorus({
+  depth: 1,
+  delayTime: 700,
+  feedback: 0.4,
+  wet: 0.5,
+}).toDestination();
+
+bassSynth.chain(bassEffect1, bassEffect2);
 
 // create sequences
 const melodySequences = setUpLoop(loops.melodyLoop, melodySynth);
@@ -41,4 +59,5 @@ const bassSequences = setUpLoop(loops.bassLoop, bassSynth);
 const drumSequences = setUpLoop(loops.drumLoop, drumSampler);
 
 // create filter listeners
-const synthEffects = new EffectsUI("synthEffects", melodyPhaser, melodyAutoWah);
+const synthEffects = new EffectsUI("synthEffects", melodyEffect1, melodyEffect2);
+const bassEffects = new EffectsUI("bassEffects", bassEffect1, bassEffect2);

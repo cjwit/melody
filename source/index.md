@@ -10,15 +10,19 @@ author: Christopher Witulski
 
 ## Try it yourself
 
-The large boxes under the melody and bass loops control the timbre of those sounds. They are connected to filters: drag the circle to the right or left to change one filter, up and down to change another.
+The large boxes under the melody and bass loops control the timbre of those sounds. They are connected to filters: drag the circle to the right or left to change one effect, up and down to change another.
 
 <div id="playButton"></div>
 
 <div id="melodyLoop" class="loop"></div>
 
+Drag the circle to add or remove distortion and delay.
+
 <div id="synthEffects" class="effects"></div>
 
 <div id="bassLoop" class="loop"></div>
+
+Drag the circle to add or remove "BitCrusher" and "Chorus" effects.
 
 <div id="bassEffects" class="effects"></div>
 

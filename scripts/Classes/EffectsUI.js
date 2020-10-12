@@ -41,8 +41,11 @@ export class EffectsUI {
   }
 
   updateEffects() {
-    console.log(this.effect1Value, this.effect2Value);
-    this.effect1.Q.value = this.effect1Value * 15;
-    this.effect2.Q.value = this.effect2Value * 15;
+    if (this.effect1) {
+      this.effect1.wet.value = this.effect1Value;
+    }
+    if (this.effect2) {
+      this.effect2.wet.value = this.effect2Value;
+    }
   }
 }
