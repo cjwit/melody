@@ -1,5 +1,5 @@
 ---
-title: On Timbre
+title: Synth, drum loop, and effect filter tests
 author: Christopher Witulski
 ---
 <main>
