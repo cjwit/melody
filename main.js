@@ -86,114 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./audio/bongo1.mp3":
-/*!**************************!*\
-  !*** ./audio/bongo1.mp3 ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/bongo1.mp3\");\n\n//# sourceURL=webpack:///./audio/bongo1.mp3?");
-
-/***/ }),
-
-/***/ "./audio/bongo2.mp3":
-/*!**************************!*\
-  !*** ./audio/bongo2.mp3 ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/bongo2.mp3\");\n\n//# sourceURL=webpack:///./audio/bongo2.mp3?");
-
-/***/ }),
-
-/***/ "./audio/clave.mp3":
-/*!*************************!*\
-  !*** ./audio/clave.mp3 ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/clave.mp3\");\n\n//# sourceURL=webpack:///./audio/clave.mp3?");
-
-/***/ }),
-
-/***/ "./audio/cowbell.mp3":
-/*!***************************!*\
-  !*** ./audio/cowbell.mp3 ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/cowbell.mp3\");\n\n//# sourceURL=webpack:///./audio/cowbell.mp3?");
-
-/***/ }),
-
-/***/ "./audio/ding.mp3":
-/*!************************!*\
-  !*** ./audio/ding.mp3 ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/ding.mp3\");\n\n//# sourceURL=webpack:///./audio/ding.mp3?");
-
-/***/ }),
-
-/***/ "./audio/hihat.mp3":
-/*!*************************!*\
-  !*** ./audio/hihat.mp3 ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/hihat.mp3\");\n\n//# sourceURL=webpack:///./audio/hihat.mp3?");
-
-/***/ }),
-
-/***/ "./audio/kick.mp3":
-/*!************************!*\
-  !*** ./audio/kick.mp3 ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/kick.mp3\");\n\n//# sourceURL=webpack:///./audio/kick.mp3?");
-
-/***/ }),
-
-/***/ "./audio/snare.mp3":
-/*!*************************!*\
-  !*** ./audio/snare.mp3 ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/snare.mp3\");\n\n//# sourceURL=webpack:///./audio/snare.mp3?");
-
-/***/ }),
-
-/***/ "./audio/tom3.mp3":
-/*!************************!*\
-  !*** ./audio/tom3.mp3 ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/tom3.mp3\");\n\n//# sourceURL=webpack:///./audio/tom3.mp3?");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -11249,66 +11141,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./scripts/Classes/EffectsUI.js":
-/*!**************************************!*\
-  !*** ./scripts/Classes/EffectsUI.js ***!
-  \**************************************/
-/*! exports provided: EffectsUI */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"EffectsUI\", function() { return EffectsUI; });\nclass EffectsUI {\n  constructor(tagId, effect1 = null, effect2 = null) {\n    this.tagId = tagId;\n    this.effect1 = effect1;\n    this.effect2 = effect2;\n    this.domObject = document.getElementById(this.tagId);\n\n    this.createHandle();\n  }\n\n  createHandle() {\n    var handle = document.createElement(\"span\");\n    handle.classList.add(\"handle\");\n    this.domObject.appendChild(handle);\n\n    var parent = $(handle).parent();\n    var parentWidth = parent.width();\n    var parentHeight = parent.height();\n\n    var handle = $(handle); // switch to jQuery\n    var handleWidth = handle.outerWidth();\n    var handleHeight = handle.outerHeight();\n\n    handle.offset({ \n      left: parent.offset().left + parentWidth / 2 - handleWidth / 2,\n      top: parent.offset().top + parentHeight / 2 - handleHeight / 2\n    })\n\n    var self = this;\n    handle.draggable({ \n      containment: \"parent\",\n      drag: function() {\n        var handleOffset = handle.offset();\n        var left = (handleOffset.left - parent.offset().left) / parentWidth;\n        var top = (handleOffset.top - parent.offset().top) / parentHeight;\n        self.effect1Value = left;\n        self.effect2Value = top;\n        self.updateEffects();\n      }\n    });\n  }\n\n  updateEffects() {\n    if (this.effect1) {\n      this.effect1.wet.value = this.effect1Value;\n    }\n    if (this.effect2) {\n      this.effect2.wet.value = this.effect2Value;\n    }\n  }\n}\n\n//# sourceURL=webpack:///./scripts/Classes/EffectsUI.js?");
-
-/***/ }),
-
-/***/ "./scripts/Classes/Loop.js":
-/*!*********************************!*\
-  !*** ./scripts/Classes/Loop.js ***!
-  \*********************************/
-/*! exports provided: Loop */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Loop\", function() { return Loop; });\nclass Loop {\n  constructor(tagId, data) {\n    this.tagId = tagId;\n    this.parts = data.parts;\n    this.source = data.source;\n    this.tempo = data.tempo;\n    this.labelWidth = 6.0;\n    this.domObject = document.getElementById(tagId);\n    this.makeRows();\n  }\n\n  makeRows() {\n    var rows = 0;\n    for (let i = 0; i < this.parts.length; i++) {\n      let row = this.makeBoxes(this.parts[i]);\n      this.domObject.appendChild(row);\n      rows++;\n    }\n  }\n\n  makeBoxes(part) {\n    var row = document.createElement(\"div\");\n    row.classList.add(\"row-of-boxes\");\n    row = this.makeRowLabel(row, part.name);\n\n    for (let i = 0; i < part.pattern.length; i++) {\n      let box = document.createElement(\"span\");\n      box.classList.add(\"box\");\n\n      // filled or not\n      let status = \"empty-box\";\n      if (part.pattern[i] != null && part.pattern[i] != 0) {\n        status = \"filled-box\";\n      }\n      box.classList.add(status);\n\n      // style box width\n      let percent = 100.0 / part.pattern.length + \"%\";\n      let padding = this.labelWidth / part.pattern.length + 0.1;\n      box.style.width = \"calc(\" + percent + \" - \" + padding + \"em)\"\n\n      // for identification from the draw command\n      let className = part.name.toLowerCase().replace(\" \", \"-\") + \"-box\";\n      box.classList.add(className);\n\n      row.appendChild(box);\n    }\n    return row;\n  }\n\n  makeRowLabel(row, label) {\n    // add name to the row of boxes\n    var rowName = document.createElement(\"span\");\n    rowName.classList.add(\"row-label\");\n    rowName.innerText = label;\n    rowName.style.width = this.labelWidth + \"em\";\n    row.appendChild(rowName);\n    return row;\n  }\n\n  // visualCallback(name) {\n  //   var name = name.toLowerCase().replace(\" \", \"-\");\n  //   var row = Array.from(this.example.getElementsByClassName(name + \"-box\"));\n  //   row = row.filter(box => box.classList.contains(\"filled-box\"));\n  //   var numBoxes = row.length;\n\n  //   // determine the active box\n  //   var active = 0;\n  //   for (let i = 0; i < row.length; i++) {\n  //     if (row[i].classList.contains(\"active-box\")) {\n  //       row[i].classList.remove(\"active-box\");\n  //       active = (i + 1) % numBoxes;\n  //       break;\n  //     }\n  //   }\n\n  //   // style the fade animation for the active box\n  //   var activeBox = row[active];\n  //   activeBox.style.backgroundColor = \"#2875a1\";\n  //   setTimeout(function () { }, 100);\n  //   setTimeout(function () {\n  //     activeBox.animate({\n  //       backgroundColor: \"#570E51\"\n  //     }, 1000);\n  //   });\n  //   setTimeout(function () {\n  //     activeBox.style.backgroundColor = \"#570E51\";\n  //   }, 1000);\n\n  //   // increment which box is active for the next iteration\n  //   activeBox.classList.add(\"active-box\");\n  // }\n}\n\n//# sourceURL=webpack:///./scripts/Classes/Loop.js?");
-
-/***/ }),
-
-/***/ "./scripts/Classes/PlayButton.js":
-/*!***************************************!*\
-  !*** ./scripts/Classes/PlayButton.js ***!
-  \***************************************/
-/*! exports provided: PlayButton */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"PlayButton\", function() { return PlayButton; });\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n\n\nclass PlayButton {\n  constructor() {\n    this.domObject = document.getElementById(\"playButton\");\n    this.domObject.innerText = \"Start\";\n    this.domObject.addEventListener(\"click\", async () => {\n      if (this.domObject.innerText == \"Start\") {\n        await tone__WEBPACK_IMPORTED_MODULE_0__[\"start\"]();\n        this.start();\n      } else {\n        this.stop();\n      }\n    });\n  }\n\n  start() {\n    this.domObject.innerText = \"Stop\";\n    tone__WEBPACK_IMPORTED_MODULE_0__[\"Transport\"].start(\"+0.01\")\n  }\n\n  stop() {\n    tone__WEBPACK_IMPORTED_MODULE_0__[\"Transport\"].stop();\n    this.domObject.innerText = \"Start\";\n  }\n}\n\n//# sourceURL=webpack:///./scripts/Classes/PlayButton.js?");
-
-/***/ }),
-
-/***/ "./scripts/audio.js":
-/*!**************************!*\
-  !*** ./scripts/audio.js ***!
-  \**************************/
-/*! exports provided: createDrumSampler, createSynth, setUpLoop */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createDrumSampler\", function() { return createDrumSampler; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createSynth\", function() { return createSynth; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"setUpLoop\", function() { return setUpLoop; });\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n/* harmony import */ var _audio_hihat_mp3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../audio/hihat.mp3 */ \"./audio/hihat.mp3\");\n/* harmony import */ var _audio_snare_mp3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../audio/snare.mp3 */ \"./audio/snare.mp3\");\n/* harmony import */ var _audio_kick_mp3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../audio/kick.mp3 */ \"./audio/kick.mp3\");\n/* harmony import */ var _audio_clave_mp3__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../audio/clave.mp3 */ \"./audio/clave.mp3\");\n/* harmony import */ var _audio_ding_mp3__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../audio/ding.mp3 */ \"./audio/ding.mp3\");\n/* harmony import */ var _audio_bongo1_mp3__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../audio/bongo1.mp3 */ \"./audio/bongo1.mp3\");\n/* harmony import */ var _audio_bongo2_mp3__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../audio/bongo2.mp3 */ \"./audio/bongo2.mp3\");\n/* harmony import */ var _audio_tom3_mp3__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../audio/tom3.mp3 */ \"./audio/tom3.mp3\");\n/* harmony import */ var _audio_cowbell_mp3__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../audio/cowbell.mp3 */ \"./audio/cowbell.mp3\");\n\n\n\n\n\n\n\n\n\n\n\n\nfunction createDrumSampler() {\n  const drumSampler = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Sampler\"]({\n    urls: {\n      A1: _audio_hihat_mp3__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n      A2: _audio_snare_mp3__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n      A3: _audio_kick_mp3__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n      A4: _audio_clave_mp3__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n      A5: _audio_ding_mp3__WEBPACK_IMPORTED_MODULE_5__[\"default\"],\n      A6: _audio_bongo1_mp3__WEBPACK_IMPORTED_MODULE_6__[\"default\"],\n      A7: _audio_bongo2_mp3__WEBPACK_IMPORTED_MODULE_7__[\"default\"],\n      A8: _audio_tom3_mp3__WEBPACK_IMPORTED_MODULE_8__[\"default\"],\n      A9: _audio_cowbell_mp3__WEBPACK_IMPORTED_MODULE_9__[\"default\"],\n    },\n  }).toDestination();\n\n  return drumSampler;\n}\n\nfunction createSynth() {\n  const synth = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Synth\"]().toDestination();\n  return synth;\n}\n\nfunction convertPatternToNotes(part) {\n  for (let i = 0; i < part.pattern.length; i++) {\n    if (part.pattern[i] == 0) {\n      part.pattern[i] = null\n    } else {\n      part.pattern[i] = part.note;\n    }\n  }\n  return part;\n}\n\nfunction createLoop(part, source) {\n  var sequence = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Sequence\"]((time, note) => {\n    source.triggerAttackRelease(note, \"8n\", time);\n  }, part.pattern).start(0);\n  return sequence;\n}\n\nfunction setUpLoop(loop, source) {\n  var needsConverting = false;\n  if (typeof loop.parts[0].pattern[0] == \"number\") {\n    needsConverting = true;\n  }\n\n  var sequences = [];\n  for (let i = 0; i < loop.parts.length; i++) {\n    let part = loop.parts[i];\n    if (needsConverting) {\n      part = convertPatternToNotes(part);\n    }\n    sequences.push(createLoop(part, source));\n  }\n\n  return sequences;\n}\n\n\n//# sourceURL=webpack:///./scripts/audio.js?");
-
-/***/ }),
-
-/***/ "./scripts/loops.js":
-/*!**************************!*\
-  !*** ./scripts/loops.js ***!
-  \**************************/
-/*! exports provided: loops */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"loops\", function() { return loops; });\nvar melodyLoop = {\n  tempo: 108,\n  parts: [\n    {\n      name: \"Melody\",\n      pattern: [\"C4\", \"C4\", null, \"Bb3\", \"C4\", null, \"Eb4\", null],\n    }\n  ]\n}\n\nvar bassLoop = {\n  tempo: 108,\n  parts: [\n    {\n      name: \"Bass\",\n      pattern: [\"C3\", null, null, \"Bb2\", null, null, \"G3\", null],\n    }\n  ]\n}\n\nvar drumLoop = {\n  tempo: 108,\n  parts: [\n    {\n      name: \"Kick drum\",\n      note: \"A3\",\n      pattern: [1, 0, 0, 0, 1, 0, 0, 0],\n    },\n    {\n      name: \"Snare drum\",\n      note: \"A2\",\n      pattern: [0, 0, 1, 1, 0, 0, 1, 0],\n    },\n    {\n      name: \"Cowbell\",\n      note: \"A9\",\n      pattern: [0, 0, 1, 0, 0, 1, 0, 0],\n    }\n  ]\n}\n\nvar loops = {\n  drumLoop: drumLoop,\n  melodyLoop: melodyLoop,\n  bassLoop: bassLoop\n}\n\n//# sourceURL=webpack:///./scripts/loops.js?");
-
-/***/ }),
-
 /***/ "./scripts/script.js":
 /*!***************************!*\
   !*** ./scripts/script.js ***!
@@ -11317,7 +11149,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n/* harmony import */ var _Classes_Loop_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Classes/Loop.js */ \"./scripts/Classes/Loop.js\");\n/* harmony import */ var _Classes_PlayButton_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Classes/PlayButton.js */ \"./scripts/Classes/PlayButton.js\");\n/* harmony import */ var _Classes_EffectsUI_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Classes/EffectsUI.js */ \"./scripts/Classes/EffectsUI.js\");\n/* harmony import */ var _loops_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./loops.js */ \"./scripts/loops.js\");\n/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./audio.js */ \"./scripts/audio.js\");\n\n\n\n\n\n\n\n// set up graphical elements\nconst Play = new _Classes_PlayButton_js__WEBPACK_IMPORTED_MODULE_2__[\"PlayButton\"]();\nconst melodyLoop = new _Classes_Loop_js__WEBPACK_IMPORTED_MODULE_1__[\"Loop\"](\"melodyLoop\", _loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].melodyLoop);\nconst bassLoop = new _Classes_Loop_js__WEBPACK_IMPORTED_MODULE_1__[\"Loop\"](\"bassLoop\", _loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].bassLoop);\nconst drumLoop = new _Classes_Loop_js__WEBPACK_IMPORTED_MODULE_1__[\"Loop\"](\"drumLoop\", _loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].drumLoop);\n\n// create sources\nconst drumSampler = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"createDrumSampler\"])();\nconst drumGainNode = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Gain\"](0.5).toDestination();\ndrumSampler.connect(drumGainNode);\n\nconst melodySynth = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"createSynth\"])();\nconst melodyGainNode = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Gain\"](1).toDestination();\nmelodySynth.connect(melodyGainNode);\n\nconst bassSynth = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"createSynth\"])();\nconst bassGainNode = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Gain\"](1).toDestination();\nbassSynth.connect(bassGainNode);\n\n// add effects\nconst melodyEffect1 = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Distortion\"]({\n  distortion: 10,\n  wet: 0.5,\n})\n\nconst melodyEffect2 = new tone__WEBPACK_IMPORTED_MODULE_0__[\"FeedbackDelay\"]({\n  delayTime: \"8n\",\n  feedback: 0.7,\n  maxDelay: \"4n\",\n  wet: 0.5\n}).toDestination();\n\nmelodySynth.chain(melodyEffect1, melodyEffect2);\n\nconst bassEffect1 = new tone__WEBPACK_IMPORTED_MODULE_0__[\"BitCrusher\"]({ \n  bits: 2,\n  wet: 0.5\n}).toDestination();\n\nconst bassEffect2 = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Chorus\"]({\n  depth: 1,\n  delayTime: 700,\n  feedback: 0.4,\n  wet: 0.5,\n}).toDestination();\n\nbassSynth.chain(bassEffect1, bassEffect2);\n\n// create sequences\nconst melodySequences = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"setUpLoop\"])(_loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].melodyLoop, melodySynth);\nconst bassSequences = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"setUpLoop\"])(_loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].bassLoop, bassSynth);\nconst drumSequences = Object(_audio_js__WEBPACK_IMPORTED_MODULE_5__[\"setUpLoop\"])(_loops_js__WEBPACK_IMPORTED_MODULE_4__[\"loops\"].drumLoop, drumSampler);\n\n// create filter listeners\nconst synthEffects = new _Classes_EffectsUI_js__WEBPACK_IMPORTED_MODULE_3__[\"EffectsUI\"](\"synthEffects\", melodyEffect1, melodyEffect2);\nconst bassEffects = new _Classes_EffectsUI_js__WEBPACK_IMPORTED_MODULE_3__[\"EffectsUI\"](\"bassEffects\", bassEffect1, bassEffect2);\n\n//# sourceURL=webpack:///./scripts/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n\n\n\n//# sourceURL=webpack:///./scripts/script.js?");
 
 /***/ })
 
