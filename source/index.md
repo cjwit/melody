@@ -10,7 +10,7 @@ Musical ideas are, at some level, intertwined sounds. While talking about sound 
 
 ### Notes and pitches (Target: 300)
 
-Music is made up of notes. These are sounds that are organized in some way for the sake of making music.[^music] While a note is a specific sound that is articulated (by a violinist, computer, or whomever), we can look at it's characteristics in an individual way and consider how this note interacts with others around it to build larger musical ideas. Since sound is comprised of sound waves, notes have certain physical attributes. Many have pitch: a clear frequency that makes a note sound "higher" or "lower." Others have less clarity due to more complex sound waves. These *indeterminate* pitches are more difficult to hear as distinct. Knocking on two different spots on the wall might create a "higher" and a "lower" sound, but in many cases, they are not so clearly defined that you can take that sound and find its representation on a piano, for example. I do remember electronic keyboards from when I was a kid in the 1980s and 19990s, though, that manipulated knocks or dogs barking to create a series that mapped to distinct pitches. It's worth remembering that these terms are only useful insofar as they help to describe something. They are not categories that every sound easily fits into.
+Music is made up of notes. These are sounds that are organized in some way for the sake of making music.[^music] While a note is a specific sound that is articulated (by a violinist, computer, or whomever), we can look at it's characteristics in an individual way and consider how this note interacts with others around it to build larger musical ideas. Since sound is comprised of sound waves, notes have certain physical attributes. Many have pitch: a clear frequency that makes a note sound "higher" or "lower." Others have less clarity due to more complex sound waves. These *indeterminate* or *indefinite* pitches are more difficult to hear as distinct. Knocking on two different spots on the wall might create a "higher" and a "lower" sound, but in many cases, they are not so clearly defined that you can take that sound and find its representation on a piano, for example. I do remember electronic keyboards from when I was a kid in the 1980s and 19990s, though, that manipulated knocks or dogs barking to create a series that mapped to distinct pitches. It's worth remembering that these terms are only useful insofar as they help to describe something. They are not categories that every sound easily fits into.
 
 [^music]: Not all organized sounds are music. Intention matters, as does perception. Personally, I find the adjective "musical" to be fruitful as a way to discuss elements of non-music that might be perceived as musical. The Islamic call to prayer or the recitation of the Quran is an example of this: as a sacred activity, it is distinctively *not* music, despite its melodies and internal rhythms [@nelsonArtRecitingQur2001].
 
@@ -18,7 +18,7 @@ Music is made up of notes. These are sounds that are organized in some way for t
 Dog barking, keyboard dog barking
 ```
 
-For notes that do have clear pitch levels, we measure their pitch in terms of *frequency*, the number of sound waves that pass in a second. A concert A, a common reference pitch for orchestral musicians, has a frequency of 440 hz. 
+For notes that do have clear pitch levels, we measure their pitch in terms of *frequency*, the number of sound waves that pass in a second. A concert A, a common reference pitch for orchestral musicians, has a frequency of 440 hz.
 
 ```
 Interactive: frequency slider
@@ -28,7 +28,7 @@ As an aside, tone color or the sound of the sound is a result of complex layerin
 
 If all of this seems technical, it's because it is. And if it seems like it doesn't matter, that's because it often does not. Elite western musical systems have a history of prioritizing pitch in a way that dominates "standard" notation. Staff lines create a sense of certainty that is not universal.[^notation] Instead of connecting a note's pitch to a frequency and judging its accuracy, we hear pitch in relation to other pitches. Is it higher or lower? Part of an ascending line or one that descends? Is it close to its neighbors or a leap away from them? Even further, in many musical practices, accuracy doesn't really matter at all: imagine singing "Happy Birthday" with a big family. If everyone joins in with energy but completely disagrees on the pitch, it can still be a powerful moment of community and celebration. Pitch just doesn't really matter in these situations. This is quite different from the sets of priorities that are in play when a symphony orchestra takes the stage.
 
-[^notation]: Systems of notation themselves are somewhat recent developments. Because the standardization of pitch in western music happened in specific ways and at specific times, it is worth remembering that even within the histories that created these notational representations, pitch was not always imagined with the same certainty that it is today. [TODO: CITE]
+[^notation]: Systems of notation themselves are somewhat recent developments. Because the standardization of pitch in western music happened in specific ways and at specific times, it is worth remembering that even within the histories that created these notational representations, pitch was not always imagined with the same certainty that it is today [see @haynesPitch2001].
 
 ```
 Communal singing example
@@ -92,6 +92,8 @@ Communal singing example
 
 * Playing with the sequencer, link
 * Importance of relationships, whether internal (pitches, scales, melodies) or between parts and people
+
+## References
 
 </main>
 
