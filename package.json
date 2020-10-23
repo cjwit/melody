@@ -1,7 +1,7 @@
 {
-  "name": "wmt_rhythm",
+  "name": "melody",
   "version": "1.0.0",
-  "description": "[On Rhythm draft](http://cwitulski.com/rhythm/)",
+  "description": "[Live link](http://cwitulski.com/melody/)",
   "main": "script.js",
   "dependencies": {
     "tone": "^14.7.58"
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cjwit/rhythm.git"
+    "url": "git+https://github.com/cjwit/melody.git"
   },
   "author": "Christopher Witulski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cjwit/rhythm/issues"
+    "url": "https://github.com/cjwit/melody/issues"
   },
-  "homepage": "https://github.com/cjwit/rhythm#readme"
+  "homepage": "https://github.com/cjwit/melody#readme"
 }
