@@ -57,7 +57,8 @@ Intonation examples
 While scales are collections of pitches that music makers can draw from, these sets also carry expectations for listeners. First, there are not "hard and fast" rules about what goes together. Pushing the boundaries can lead to innovation, but composers and improvisers balance that innovation against listener expectation. Pushing too far might lead to confusion.[^serialists] Second, pitch and melody align closely in traditions across the world to create a sense of motion and anticipation. It is difficult to divorce pitch from the motion that gives it life over time in actual music. To illustrate this sense of expectation, here is an example that uses pitches from a western major scale. It is not random, I set up a melodic idea, but go somewhere unexpected. In some cases, this kind of shift can be powerful or beautiful. In others, like this one, it's striking, odd, or simply sounds wrong to my ears.
 
 ```
-
+Odd melodies
+```
 
 [^serialists]: In some cases, like so-called "serialist" composers in Western classical tradition, these boundaries are intentionally pushed to the point of breaking. By using pitch and other musial elements in ways that feel chaotic or are so highly ordered that they operate outside of the norms of the tradition to that point, people like Anton Webern or Pierre Boulez expand the idea of what a scale can mean. They fully step outside of listener expectation.
 
