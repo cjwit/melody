@@ -76,9 +76,9 @@ Melody with a slight surprise
 Melody that is jarring
 ```
 
-### Linear relationships (Target: 200)
+### Linear relationships and harmony
 
-In these cases, I only give one single melody. Each is an idea in isolation. How you hear it, however, may depend on what context you would expect to sit alongside it. This is because so much musical activity is based on relationships between different musical ideas. Sometimes these are simultaneous (two ideas are happening at once). It's also worth thinking about these relationships sequentially since repetition so important to how we hear and understand music—how are expectations are set up—that it is difficult to overstate. This relates to ideas of *musical form*, large structures that unroll over time, and *rhythm*, which is a topic for another essay.
+In these cases, I only give one single melody. Each is an idea in isolation. How you hear it, however, may depend on what context you would expect to sit alongside it. This is because so much musical activity is based on relationships between different musical ideas. Sometimes these are simultaneous (two ideas are happening at once). It's also worth thinking about these relationships sequentially since repetition so important to how we hear and understand music—how are expectations are set up—that it is difficult to overstate. This relates to ideas of *musical form*, large structures that unroll over time, and *rhythm*, which is a topic for another time.
 
 Listen to these melodies again. I'll add different *countermelodies*, other musical ideas, other melodies, that run "counter" to the main idea.
 
@@ -86,8 +86,11 @@ Listen to these melodies again. I'll add different *countermelodies*, other musi
 Same melodies, with countermelodies
 ```
 
-* Melody and harmony
-* Support and attention
+Once  we have multiple ideas occurring simultaneously, we can begin thinking about concepts that are related to pitch and melody: harmony and texture. *Harmony* can be defined in many ways, like most of these musical terms. A description that is broad enough to be useful when talking about musical styles from people everywhere might focus on pitches or notes that sound at once. We don't only perceive harmony when things happen at once, though. Instead, our brains are pretty good at understanding when notes are meant to "go together," even if they unfold over time. An arpeggiator is a piece of equipment that takes a harmony (a set of pitches) and plays them in order over a wide range. The word is an adaptation of the word *arpeggio*, which is a series of notes that we hear as a single harmony, even though they are played sequentially. Listen to a demo and pay close attention to how you might hear "motion" or some kind of change when the player's fingers change notes. Even though we hear one note after the other, albeit in quick succession, we can usually understand the relationship between the pitches as blocks, in a way. Musical training might give someone the ability to recognize and identify those blocks, but people who don't have that training can usually hear the motion through the changing harmonies. That said, if you were to listen to passing harmonies that were unfamiliar, everything might simply sound chaotic or random. This can be the case for some people listening to things like "hard bop" jazz styles that use "extended harmonies."
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8SO_qtNTh3Y" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+One of the main uses of harmony involves support. Music makers use countermelodies (secondary melodies), arppegiators or similar technologies, chords (blocks of harmony or notes sounded together), and other forms of simultaneity to support a main idea. While sometimes the main idea is not clear or moves around an ensemble, there is often a melody that serves as a focal point. Harmony and other supportive musical ideas can change the way we hear the main idea, as was the case with the melodies and countermelodies above. They can also change the entire feel of a piece of music by shifting our attention. There are some useful terms for describing the ways in which musical ideas interact, and these fall under the umbrella of *texture*.
 
 ## Texture (Target: 200)
 
