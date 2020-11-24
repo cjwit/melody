@@ -8,7 +8,7 @@ Musical ideas are, at some level, intertwined sounds. While talking about sound 
 
 [^universal]: TODO cite sources exemplifying and arguing for indigenous theories of musical construction. Aside from being "intertwined sounds," musical ideas are also heavily indebted to the social constructs and contexts that surround them. In that vein, the "close reading" techniques shown here present only a sliver of the many ways to understand music and musical activity.
 
-## Notes and pitches (Target: 700)
+## Notes and pitches
 
 Music is made up of notes. These are sounds that are organized in some way for the sake of making music.[^music] While a note is a specific sound that is articulated (by a violinist, computer, or whomever), we can look at it's characteristics in an individual way and consider how this note interacts with others around it to build larger musical ideas. Since sound is comprised of sound waves, notes have certain physical attributes. Many have pitch: a clear frequency that makes a note sound "higher" or "lower." Others have less clarity due to more complex sound waves. These *indeterminate* or *indefinite* pitches are more difficult to hear as distinct. Knocking on two different spots on the wall might create a "higher" and a "lower" sound, but in many cases, they are not so clearly defined that you can take that sound and find its representation on a piano, for example. I do remember electronic keyboards from when I was a kid in the 1980s and 19990s, though, that manipulated knocks or dogs barking to create a series that mapped to distinct pitches. It's worth remembering that these terms are only useful insofar as they help to describe something. They are not categories that every sound easily fits into.
 
@@ -36,7 +36,7 @@ If all of this seems technical, it's because it is. And if it seems like it does
 Communal singing example
 ```
 
-## Organizing and manipulating pitch (Target: 400)
+## Organizing and manipulating pitch
 
 It's rare for music to include only a single pitch. Notes make use of a variety of pitches in combination with rhythm, color, instrumentation, interactions between people, and so on. The pitches—which are the focus here—are usually drawn from a predefined set by the composer or improviser. Taken at random, pitches might be too close in frequency to distinguish, or they may not fit within a listener's preconceived ideas of what "goes" together. Think about colors: we have a lifetime of looking at color pallettes that give us context as to what we like or don't like. Some even have meaning. A sports rivalry might make combinations like gray and red or blue and yellow loved or hated. We similarly have a lifetime of listening to music, some of which is globally present and some of which is quite local. This leads to a shared comfort with some pitch systems, but allows for a wide diversity of others that may still feel unfamiliar.
 
@@ -56,32 +56,38 @@ Intonation examples
 
 While scales are collections of pitches that music makers can draw from, these sets also carry expectations for listeners. First, there are not "hard and fast" rules about what goes together. Pushing the boundaries can lead to innovation, but composers and improvisers balance that innovation against listener expectation. Pushing too far might lead to confusion.[^serialists] Second, pitch and melody align closely in traditions across the world to create a sense of motion and anticipation. It is difficult to divorce pitch from the motion that gives it life over time in actual music. To illustrate this sense of expectation, here is an example that uses pitches from a western major scale. It is not random, I set up a melodic idea, but go somewhere unexpected. In some cases, this kind of shift can be powerful or beautiful. In others, like this one, it's striking, odd, or simply sounds wrong to my ears.
 
+[^serialists]: In some cases, like so-called "serialist" composers in Western classical tradition, these boundaries are intentionally pushed to the point of breaking. By using pitch and other musial elements in ways that feel chaotic or are so highly ordered that they operate outside of the norms of the tradition to that point, people like Anton Webern or Pierre Boulez expand the idea of what a scale can mean. They fully step outside of listener expectation.
+
 ```
 Odd melodies
 ```
 
-[^serialists]: In some cases, like so-called "serialist" composers in Western classical tradition, these boundaries are intentionally pushed to the point of breaking. By using pitch and other musial elements in ways that feel chaotic or are so highly ordered that they operate outside of the norms of the tradition to that point, people like Anton Webern or Pierre Boulez expand the idea of what a scale can mean. They fully step outside of listener expectation.
+Because scales are a foundational element of music making, albeit a flexible one, there is much more to describe. They grow from historical contexts and innovations and music makers use them in quite different ways across styles and geographies. In some cases, pitch, scales, and intonation are of supreme importance: on the symphony stage, everyone tunes to an oboe's A, which is, in turn, tuned to a tuner or piano set at 440 hertz. Pitch is specific. But an out of tune rock band guitar can sound awful or characteristic, perhaps even "grungy," evoking the central aesthetic of "do-it-yourself" punk rock. The fixtures themselves are not universal, neither is an adherence to a mathematical purity, even though accuracy can be wrapped into a sense of value in some musical settings. Pitch, as it exists in any given musical context or tradition, deserves to be discussed as a part of that whole with attention to the values and systems that govern the music, musicians, and creativity. With that warning in mind, I turn toward other relationships between music's sounds, some of which come out of or are related to pitch.
 
-Negotiating mathematics and reality
+## Part 2 intro: Melody
 
-* Greek system of ratios (briefly)
-* Building a scale
-* Tuning systems: just, equal, gamelan (with interactive that allows for random and a visual showing relationship)
-* Cultural/historical/social importance of some of these relationships, like equal coming out of a need to play in multiple keys, demonstrates a negotiation between a (social) ideal of perfection and a compositional aspiration toward completeness, for example
-* Valuing participation
+Melodies are often mysterious combinations of sounds, of notes, that together create an idea, something with an identity that a listener will notice and understand as single thing. At their simplest, a melody is a sequence of notes—each of which has some element of pitch and rhythm—that we perceive as a unit. If this sounds vague, that's because it is. Melody, like so many other parts of music, depend on a composer or improvisor's innovation within and as it relates to listener experience and expectation. Since creativity is all about creating something new and experience is based on the old, an idea must have a delicate balance. The simplest melodies are some of the most difficult to create: how can you make something that is fresh without pushing the bounds too far? And if you push the bounds further, is it possible to find a different set of listeners—a different audience—for whom your work is perfect?
 
-## Melody (Target: 200)
+Melody, like so much else in music, is therefore dependent on expectation. As sequences of notes, melodies have the additional ability to create and satisfy their own internal expectations. By combining notes in familiar ways, music makers can develop ideas, bringing the listener along. Sometimes, those pathways will be well worn (which is not to say that they are dull). At other times, a composer may turn away from the path. If executed well and if the audience has the experience to appreciate the innovation, this can generate huge amounts of tension and satisfaction. If not, though, it can be jarring. Here is an example based on western traditions. Note that this is not meant to be a universally "felt" set of melodies. To the contrary, you may hear them in a way that differs from the labels that I use, which apply to me, my listening, and my experiences.
 
-* Scales vs mode: music and motion
-* A set of pitches (scale) used at random vs a collection of related pitches that carry expectations in terms of melodic development and motion (interactive with randomized pitches vs a maqam performance)
-* This sense of mode is not unique to other places (India, Middle East), it defines how we conceptualize major and minor
+```
+Melody on a worn path
+Melody with a slight surprise
+Melody that is jarring
+```
 
 ### Linear relationships (Target: 200)
 
+In these cases, I only give one single melody. Each is an idea in isolation. How you hear it, however, may depend on what context you would expect to sit alongside it. This is because so much musical activity is based on relationships between different musical ideas. Sometimes these are simultaneous (two ideas are happening at once). It's also worth thinking about these relationships sequentially since repetition so important to how we hear and understand music—how are expectations are set up—that it is difficult to overstate. This relates to ideas of *musical form*, large structures that unroll over time, and *rhythm*, which is a topic for another essay.
+
+Listen to these melodies again. I'll add different *countermelodies*, other musical ideas, other melodies, that run "counter" to the main idea.
+
+```
+Same melodies, with countermelodies
+```
+
 * Melody and harmony
 * Support and attention
-
-## POSSIBLE SPLIT
 
 ## Texture (Target: 200)
 
