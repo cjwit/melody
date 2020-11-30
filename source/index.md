@@ -92,15 +92,27 @@ Once  we have multiple ideas occurring simultaneously, we can begin thinking abo
 
 One of the main uses of harmony involves support. Music makers use countermelodies (secondary melodies), arppegiators or similar technologies, chords (blocks of harmony or notes sounded together), and other forms of simultaneity to support a main idea. While sometimes the main idea is not clear or moves around an ensemble, there is often a melody that serves as a focal point. Harmony and other supportive musical ideas can change the way we hear the main idea, as was the case with the melodies and countermelodies above. They can also change the entire feel of a piece of music by shifting our attention. There are some useful terms for describing the ways in which musical ideas interact, and these fall under the umbrella of *texture*.
 
-## Texture (Target: 200)
+## Texture
 
-* Interactions, textures (poly- vs mono-, ornamentation and heterophony)
-* Monophony with a few examples
+As is the case with many of the terms used throughout these short essays, it is best to understand the vocabulary used for texture as descriptors rather than categories. Most music has elements of different textures happening simultaneously and the usefulness of these words as rigid buckets that a musical example fits into is limited. They can, however, help to describe specific elements of what we hear at specific moments in time.[^greek] 
 
-### Almost the same: heterophony (Target: 200)
+[^greek]: Furthermore, these are words that have histories in the analysis of Western classical music. Their etymology in English and Greek (-phony, meaning sound) shows this. I use them here in the broadest possible sense, making them more applicable to non-Western musical styles.
 
-* Fiddle and Middle Eastern examples of ornamentation and heterophony
-* Happy Birthday as another example
+### A single line
+
+*Monophony* is the most straightforward texture, referring to a single musical line. It may be isolated and, importantly, it may be performed by multiple singers or instruments. If a group of people are singing the same melodies in the same way at the same time, it is likely a *monophonic* texture. Common examples include [some types of chant in churches or other religious settings](https://www.youtube.com/watch?v=CBwh1OXw6uI), including the [recitation of the Quran, Islam's holy book](https://www.youtube.com/watch?v=WrhsPWlTXl4). Secular monophonic traditions include English ballad singing or [Irish *sean nós*](https://www.youtube.com/watch?v=N8paj2hQHIo).
+
+Since lines between textures are not always clear, I include a secondary texture here that others may categorize elsewhere: a *drone texture*. It is common for monophonic performance to happen in conjunction with a drone, which is an underlying bed of sound that stays relatively consistent. The chant example linked above has a drone in the organ. Here is another example from India's classical music traditions featuring Ali Akbar Khan, an important *sarod* player. The drone is from the *tanbura*, the traditional drone instrument in this particular tradition, though one that is increasingly being replaced by an electronic box or cell phone app!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o9OHCFoOCfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### The same, but different
+
+*Heterophony* is a similar texture to *monophony*, but where the *mono* in monophony highlights the singularity of the main melodic line, the *hetero* (meaning different) in heterophony notes the existence of variation. Instead of monophony's single line, heterophony includes multiple versions of the same melody, but performed slightly differently. This usually involves *ornamentation*, or minor and often spontaneous or improvised decorations. Classical music traditions in the Middle East and North Africa commonly feature heterophony, as do fiddle traditions from places like Ireland and the American Appalachia region. [Here is an example from the National Arab Orchestra, based in Detroit, Michigan.](https://www.youtube.com/watch?v=tJknCTCYme8) Listen for the instruments varying the melody ever so slightly, especially as the energy rises. Another example from an old time music festival in Appalachia shows that many people playing slightly different versions of the same melody can create a dense sound.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/naCLCHMjOiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Both of these examples, however, also have other things going on. They are not *just* heterophony. Instead, the nuanced melodic interactions happen in conjunction with other musical ideas. This leads us to another type of texture.
 
 ### Supporting a main idea (Target: 200)
 
