@@ -110,26 +110,73 @@ Since lines between textures are not always clear, I include a secondary texture
 
 *Heterophony* is a similar texture to *monophony*, but where the *mono* in monophony highlights the singularity of the main melodic line, the *hetero* (meaning different) in heterophony notes the existence of variation. Instead of monophony's single line, heterophony includes multiple versions of the same melody, but performed slightly differently. This usually involves *ornamentation*, or minor and often spontaneous or improvised decorations. Classical music traditions in the Middle East and North Africa commonly feature heterophony, as do fiddle traditions from places like Ireland and the American Appalachia region. [Here is an example from the National Arab Orchestra, based in Detroit, Michigan.](https://www.youtube.com/watch?v=tJknCTCYme8) Listen for the instruments varying the melody ever so slightly, especially as the energy rises. Another example from an old time music festival in Appalachia shows that many people playing slightly different versions of the same melody can create a dense sound.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/naCLCHMjOiM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/naCLCHMjOiM" frameborder="0" allow="accelerometer; autzoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Both of these examples, however, also have other things going on. They are not *just* heterophony. Instead, the nuanced melodic interactions happen in conjunction with other musical ideas. This leads us to another type of texture.
 
-### Supporting a main idea (Target: 200)
+### Different ideas
 
-* Focus of attention
-* Note about the term heterophony/drone
-* Examples with drones, chords, rhythm guitar
+Once we start thinking about *all* of the stuff going on in a piece of music, we might find different melodies or musical ideas that are not the same. Sometimes this is called *multiple melody* or *polyphony*. The drone texture mentioned above could be an example if you consider the static note its own musical idea. This kind of ambiguity is good: it allows for different people to hear music in different ways.
 
-### Multiple melody/polyphony (Target: 200)
+An important distinction exists between types of polyphony. The question becomes whether there is a focal point or "main idea" that is supported by other sounds or if the different melodic lines are competing for listener attention. Some traditions (including American and global popular music styles) usually focus on a single melody with other lines supporting that, often sung, melody in different ways. Others, however, highlight interactions in a way that draws your attention in all sorts of directions.
 
-* Odetta, Moses, Moses as example of multiple melody
-* Something public and participatory (Amazigh?)
-* Open questions about how an ensemble works (what's the focus of attention?)
+This example from Indonesia's *gamelan gong kebyar* tradition shows one extreme. The textures are so dense in some spots that it is difficult to listen to one specific line. Instead, to me at least, the sound exists as a whole instead of its distinct parts.
 
-## Moving on (Target: 100)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ldPMifPbngc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Playing with the sequencer, link
-* Importance of relationships, whether internal (pitches, scales, melodies) or between parts and people
+This example by the band Pearl and the Beard shows how polyphony can add a colorful texture within American popular music styles. When the two singers begin, they are singing different melodies with different words. As you listen, think about whether one stands out as more important.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XHBsO3jHLfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In this same example, there is yet more stuff going on, though. Right after hitting play, you hear a bass, some pitched bells, a drummer playing with brushes, and so on. Each of these musical ideas might reach out and grab your attention for a moment, but they are largely supportive of the focal point, which is somewhere else. Within global popular styles, this is the most common type of interaction between melodies: much of the activity supports a main idea, the melody that you might walk away humming after the piece of music comes to a close. Listen to this example from Odetta, an important figure within the American folk revival of the 1960s. In "Moses, Moses," you hear Odetta's voice as the main melody, but the bass line underneath it is also really interesting. Is it supportive or competing? There are some clues, like how the volume of the voice is much louder and therefore easier to hear, but it's still an open question at times. Consider how these interact, but mostly, enjoy listening and, perhaps, falling into the music.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wpfspVlXruE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Textured techniques
+
+Some other common techniques make use of the relationship between melodic ideas. It can be useful to have names for them when describing music and sound. I'll include the vocabulary mentioned above and, in the case of new ideas here, I'll give an example.
+
+Density
+
+: This is not a technique, but it a useful way of describing texture. Dense, or thick, textures have a lot going on. [Ornette Coleman's experiments with "free jazz"](https://www.youtube.com/watch?v=iPDzlSda8P8) are a good demonstration. There is a lot going on at once. The gamelan example from Bali listed above is another. A "thin" texture, one that is less dense, would be the opposite. Depending on how it sounds, it could be described as "clear" or "simple."
+
+Drone
+
+: This texture, described above, involves a static or almost static note or sound that sits underneath another melody.
+
+Harmonization
+
+: Harmonization can have a few different definitions. The most useful one or this purpose is two or more melodic lines that move in parallel to a central melodic idea. In this way, the different lines create a harmony, but they are very much in support of a single melody that is the focus. [The Andrews Sisters took advantage of this sound](https://www.youtube.com/watch?v=8of3uhG1tCI), as did many others, especially in gospel, doo wop, and various folk traditions.
+
+Heterophony
+
+: Described above, heterophony happens when multiple voices or instruments play the same melody, but in slightly different and ornamented ways.
+
+Homophony
+
+: This happens when an important melodic idea is supported by something else. There is some overlap with other concepts like harmonization and polyphony. In homophonic textures, however, you don't necessarily have to hear specific melodies moving along with the melody (like harmonization) or running counter to it in support (like certain examples of polyphony). This [example from Brazilian bossa nova](https://www.youtube.com/watch?v=g6w3a2v_50U) shows how João Gilberto's guitar is interesting and has some internal melodies, but its role is supportive of his singing. 
+
+Monophony
+
+: Described above, this is a single melody texture and includes cases where multiple voices (sung or instruments) perform the same melody, the same way, at the same time.
+
+Ostinato
+
+: An ostinato is a repeated melodic phrase that can be used as a building block for dense textures. In [this example from Latin jazz, based in Afro-Cuban mambo styles](https://www.youtube.com/watch?v=A5tRGMHfKrE), the bass melody begins, then saxophones add their own ostinato, followed by trombones, then trumpets. Together, these become a dense bed of sound for Dizzy Gillespie's trumpet solo.
+
+Ornamentation
+
+: While not a texture, ornamentation is the decoration of a melody. It can be improvised and leads to a change from monophony to heterophony in many traditions.
+
+Polyphony
+
+: Described above, polyphony involves different melodic ideas happening simultaneously.
+
+## Building textures
+
+Despite the many overlaps between these ideas and terms, they serve a purpose. They give some names to the things we hear when listening. They also show the importance of relationships between musical ideas. These relationships may be between individual pitches or scales as they unfold over time, or between melodies and musical parts. Perhaps most significantly, the relationships between people themselves, even performers and listeners, help to give meaning to music.
+
+You are invited to play with some of these ideas yourself using [a sequencer that loops melodies](http://cwitulski.com/loopBuilder/). It will allow you to create different melodic ideas and to listen to how they interact as you change them up.
 
 ## References
 
