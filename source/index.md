@@ -14,17 +14,13 @@ Music is made up of notes. These are sounds that are organized in some way for t
 
 [^music]: Not all organized sounds are music. Intention matters, as does perception. Personally, I find the adjective "musical" to be fruitful as a way to discuss elements of non-music that might be perceived as musical. The Islamic call to prayer or the recitation of the Quran is an example of this: as a sacred activity, it is distinctively *not* music, despite its melodies and internal rhythms [@nelsonArtRecitingQur2001].
 
-```
-Dog barking, keyboard dog barking
-```
+<div id="example1" class="loop"></div>
 
 For notes that do have clear pitch levels, we measure their pitch in terms of *frequency*, the number of sound waves that pass in a second. A concert A, a common reference pitch for orchestral musicians, has a frequency of 440 hz.
 
-```
-Interactive: frequency slider, theremin-type widget with mouse?
-```
+<div id="example2" class="loop"></div>
 
-As an aside, tone color or the sound of the sound is a result of complex layerings of different waves. [This interactive](https://imaginary.github.io/harmonics-explorer/) lets you add different frequencies to a base pitch to create new tone colors. The specific frequencies are related (they are part of the *harmonic series*) and combining them adds complexity to the main sound wave. After clicking "English" near the bottom and "Unmute" to hear the sound, try clicking the "Square" and "Sawtooth" buttons to hear common electronic synthesizer sounds. You can also move the individual pitches (called *harmonics*) to create your own tone color. Clicking the up and down arrows changes the current note, which also shortens the length of the sound waves (increasing their frequency).
+As an aside, tone color or the sound of the sound is a result of complex layerings of different waves. [This interactive](https://imaginary.github.io/harmonics-explorer/) lets you add different frequencies to a base pitch to create new tone colors. The specific frequencies are related (they are part of the *harmonic series*) and combining them adds complexity to the main sound wave. After clicking "English" near the bottom and "Unmute" to hear the sound, try clicking the "Square" and "Sawtooth" buttons to hear common electronic synthesizer sounds. You can also move the individual pitches (called *harmonics*) to create your own tone color. Clicking the up and down arrows changes the current note, which also shortens the length of the soun d waves (increasing their frequency).
 
 If all of this seems technical, it's because it is. And if it seems like it doesn't matter, that's because it often does not, at least in terms of how we hear sound and music. Elite western musical systems have a history of prioritizing pitch in a way that dominates "standard" notation. Staff lines create a sense of certainty, despite the fact that pitch certainty is *not* universal.[^notation] Instead of connecting a note's pitch to a frequency and judging its accuracy, we hear pitch in relation to other pitches. Is it higher or lower? Part of an ascending line or one that descends? Is it close to its neighbors or a leap away from them?[^perfect] Even further, in many musical practices, accuracy doesn't really matter at all: imagine singing "Happy Birthday" with a big family. If everyone joins in with energy but completely disagrees on the pitch, it can still be a powerful moment of community and celebration. In fact, people may laugh and enjoy the moment more. This is quite different from the sets of priorities that are in play when a symphony orchestra takes the stage.
 
@@ -42,25 +38,17 @@ It's rare for music to include only a single pitch. Notes make use of a variety 
 
 These pitch sets or collections are often called *scales*, though the name implies more than that and can be used in different ways. Some common collections, or scales, are parts of traditions and traditional systems and have names like "major" or "minor." Others have names, but relate to other systems that a listener may not know: jazz players may learn the "lydian dominant" scale. Others are associated with regional styles, like "saba" in Arab music or "pelog" in Balinese music.
 
-```
-Short melody using random pitches, major scale, lydian dominant, saba, pelog
-```
+<div id="example3" class="loop"></div>`
 
 These collections put pitches into specific relationships to each other. Some are built on mathematical ratios drawn from Greek music, though others are adapted to account for specific needs within musical styles or practicalities related to instruments. Western music is often described as coming out of Greek ratios, but as composers looked for more flexibility within those clear mathematical structures, they (and instrument builders) adapted. Now, most Western music is "tempered," or adjusted slightly so that a single instrument like a piano can play different scales. It's a trade-off between mathematical purity and pragmatism.
 
 And people are not mechanical in their music making. Simple error may pull a note "out of tune," or away from where the listener expects it to be. Our ears are trained for this, even if we may not know it or have words to describe it, as demonstrated by listening to early episodes of *American Idol* or similar amateur singing competitions. Composers and performers can manipulate pitch intentionally, as well, to great effect. Jazz players "scoop" into notes or "fall" away from them. Slightly changing the intonation (tuning) a note can make a chord (a set of pitches) resonate powerfully. Purposeful de-tuning can be dramatic, grating, or invoke meaningful responses in listeners, like tension.
 
-```
-Intonation examples
-```
-
 While scales are collections of pitches that music makers can draw from, these sets also carry expectations for listeners. First, there are not "hard and fast" rules about what goes together. Pushing the boundaries can lead to innovation, but composers and improvisers balance that innovation against listener expectation. Pushing too far might lead to confusion.[^serialists] Second, pitch and melody align closely in traditions across the world to create a sense of motion and anticipation. It is difficult to divorce pitch from the motion that gives it life over time in actual music. To illustrate this sense of expectation, here is an example that uses pitches from a western major scale. It is not random, I set up a melodic idea, but go somewhere unexpected. In some cases, this kind of shift can be powerful or beautiful. In others, like this one, it's striking, odd, or simply sounds wrong to my ears.
 
 [^serialists]: In some cases, like so-called "serialist" composers in Western classical tradition, these boundaries are intentionally pushed to the point of breaking. By using pitch and other musial elements in ways that feel chaotic or are so highly ordered that they operate outside of the norms of the tradition to that point, people like Anton Webern or Pierre Boulez expand the idea of what a scale can mean. They fully step outside of listener expectation.
 
-```
-Odd melodies
-```
+<div id="example4" class="loop"></div>
 
 Because scales are a foundational element of music making, albeit a flexible one, there is much more to describe. They grow from historical contexts and innovations and music makers use them in quite different ways across styles and geographies. In some cases, pitch, scales, and intonation are of supreme importance: on the symphony stage, everyone tunes to an oboe's A, which is, in turn, tuned to a tuner or piano set at 440 hertz. Pitch is specific. But an out of tune rock band guitar can sound awful or characteristic, perhaps even "grungy," evoking the central aesthetic of "do-it-yourself" punk rock. The fixtures themselves are not universal, neither is an adherence to a mathematical purity, even though accuracy can be wrapped into a sense of value in some musical settings. Pitch, as it exists in any given musical context or tradition, deserves to be discussed as a part of that whole with attention to the values and systems that govern the music, musicians, and creativity. With that warning in mind, I turn toward other relationships between music's sounds, some of which come out of or are related to pitch.
 
