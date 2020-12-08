@@ -58,11 +58,7 @@ Melodies are often mysterious combinations of sounds that combine to create an i
 
 Melody, like so much else in music, is therefore dependent on expectation. As sequences of notes, melodies have the additional ability to create and satisfy their own internal expectations. By combining notes in familiar ways, music makers can develop ideas, bringing the listener along. Sometimes, those pathways will be well worn (which is not to say that they are dull). At other times, a composer may turn away from the path. If executed well and aimed toward an audience that has the experience and desire to appreciate the innovation, this can generate huge amounts of tension and satisfaction. If not, though, it can be jarring. Here is an example based on western traditions. Note that this is not meant to be a universally "felt" set of melodies. To the contrary, you may hear them in a way that differs from the labels that I use, which apply to me, my listening, and my experiences.
 
-```
-Melody on a worn path
-Melody with a slight surprise
-Melody that is jarring
-```
+<div id="example5" class="loop"></div>
 
 ### Linear relationships and harmony
 
@@ -70,9 +66,7 @@ In these cases, I only give one single melody. Each is an idea in isolation. How
 
 Listen to these melodies again. I'll add different *countermelodies*, other musical ideas, other melodies, that run "counter" to the main idea.
 
-```
-Same melodies, with countermelodies
-```
+<div id="example6" class="loop"></div>
 
 Once  we have multiple ideas occurring simultaneously, we can begin thinking about concepts that are related to pitch and melody: harmony and texture. *Harmony* can be defined in many ways, like most of these musical terms. One potential description might focus on pitches or notes that sound at once. We don't only perceive harmony when things happen at once, though. Instead, our brains are pretty good at understanding when notes are meant to "go together," even if they unfold over time. An arpeggiator is a piece of equipment that takes a harmony (a set of pitches) and plays them in order over a wide range. The word is an adaptation of the word *arpeggio*, which is a series of notes that we hear as a single harmony, even though they are played sequentially. As you listen to a demonstration, pay close attention to how you might hear "motion" or some kind of change when the player's fingers change notes. Even though we hear one note after the other, albeit in quick succession, we can usually understand the relationship between the pitches as blocks, in a way. Musical training might give someone the ability to recognize and identify those blocks, but people who don't have that training can usually hear the motion through the changing harmonies. That said, if you were to listen to passing harmonies that were unfamiliar, everything might simply sound chaotic or random. This can be the case for some people listening to things like "hard bop" jazz styles that use so-called "extended harmonies" for the first time.
 

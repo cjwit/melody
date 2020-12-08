@@ -8,7 +8,6 @@ export class Example {
     this.numLoops = this.loops.length;
     this.example = document.getElementById(tagId);
 
-    console.log(tagId, data, this.example);
     this.makePlayButton(this.loops[0]);
     this.makeTitle();
     this.makeBoxes(this.loops[0].parts);
