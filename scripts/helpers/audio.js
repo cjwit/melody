@@ -12,27 +12,19 @@ import * as Tone from 'tone';
 // import riqqDum from "../../audio/riqq-dum.mp3";
 // import riqqTek from "../../audio/riqq-tek.mp3";
 
+import dog from "../../audio/dog.mp3";
 
-// // drum sampler configuration
-// export function createDrumSampler() {
-//   const drumSampler = new Tone.Sampler({
-//     urls: {
-//       A1: hihat,
-//       A2: snare,
-//       A3: kick,
-//       A4: clave,
-//       A5: ding,
-//       A6: bongo1,
-//       A7: bongo2,
-//       A8: tom3,
-//       A9: cowbell,
-//       A10: riqqDum,
-//       A11: riqqTek,
-//     },
-//   }).toDestination();
 
-//   return drumSampler;
-// }
+// drum sampler configuration
+export function createDrumSampler() {
+  const drumSampler = new Tone.Sampler({
+    urls: {
+      "C#4": dog
+    },
+  }).toDestination();
+
+  return drumSampler;
+}
 
 export function createSynth() {
   const synth = new Tone.Synth().toDestination();
