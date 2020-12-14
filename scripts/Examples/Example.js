@@ -123,8 +123,20 @@ export class Example {
     return row;
   }
 
-  stopAllExamples() {
+  stopAllExamples(exceptTag = null) {
     var playButtons = Array.from(document.getElementsByClassName("play-button"));
+
+    if (exceptTag) {
+      var exceptIndex;
+      for (let i = 0; i < playButtons.length; i++) {
+        if (playButtons[i].parentNode.id == exceptTag) {
+          exceptIndex = i;
+          break;
+        }
+      }
+      playButtons.splice(exceptIndex, 1);
+    }
+
     playButtons.forEach(button => {
       if (button.innerText == "Stop") {
         button.click();
@@ -166,6 +178,7 @@ export class Example {
       if (part.show) {
         this.visualCallback(part.name);
       }
+      console.log(note)
       part.source.triggerAttackRelease(note, "8n", time);
     }, part.pattern).start(0);
   }
