@@ -940,6 +940,12 @@ input {
 .button-container .btn {
   margin-left: 1em;
 }
+.button-container .active {
+  border: 1px solid #570E51;
+  background-color: #3A0035;
+  color: white;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
 
 .effects {
   border: 2px solid #570E51;
