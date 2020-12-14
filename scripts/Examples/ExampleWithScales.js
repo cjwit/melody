@@ -39,8 +39,12 @@ export class ExampleWithScales extends Example {
       // button.classList.add("play-button");
       button.innerText = scaleNames[i];
 
-      button.addEventListener('click', async () => {
-      
+      button.addEventListener('click', async (e) => {
+        
+        var siblings = e.target.parentNode.childNodes;
+        siblings.forEach(b => { b.classList.remove("active")})
+        e.target.classList.add("active");
+
         let newScale;
         switch (button.innerText) {
           case ("Major"): newScale = MAJOR; break;
@@ -66,6 +70,7 @@ export class ExampleWithScales extends Example {
       scaleButtons.appendChild(button); 
     }
 
+    scaleButtons.childNodes[0].classList.add("active")
     this.example.appendChild(scaleButtons);
   }
 
