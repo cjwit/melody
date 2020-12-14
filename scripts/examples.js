@@ -4,7 +4,7 @@ var drumSampler = createDrumSampler();
 var synth = createSynth();
 
 var example1 = {
-  title: "Example 1: Finding pitch in indeterminate sound (not done)",
+  title: "Example 1: Finding pitch in indeterminate sound",
   tag: "example1",
   loops: [
     {
