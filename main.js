@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./audio/dog.mp3":
+/*!***********************!*\
+  !*** ./audio/dog.mp3 ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"samples/dog.mp3\");\n\n//# sourceURL=webpack:///./audio/dog.mp3?");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -11165,6 +11177,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./scripts/Examples/ExampleWithSampler.js":
+/*!************************************************!*\
+  !*** ./scripts/Examples/ExampleWithSampler.js ***!
+  \************************************************/
+/*! exports provided: ExampleWithSampler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ExampleWithSampler\", function() { return ExampleWithSampler; });\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n/* harmony import */ var _Example_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Example.js */ \"./scripts/Examples/Example.js\");\n\n\n\nclass ExampleWithSampler extends _Example_js__WEBPACK_IMPORTED_MODULE_1__[\"Example\"] {\n  constructor(tagId, data) {\n    super(tagId, data);\n  }\n}\n\n//# sourceURL=webpack:///./scripts/Examples/ExampleWithSampler.js?");
+
+/***/ }),
+
 /***/ "./scripts/Examples/ExampleWithScales.js":
 /*!***********************************************!*\
   !*** ./scripts/Examples/ExampleWithScales.js ***!
@@ -11197,7 +11221,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"examples\", function() { return examples; });\n/* harmony import */ var _helpers_audio_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers/audio.js */ \"./scripts/helpers/audio.js\");\n\n// var drumSampler = createDrumSampler();\nvar synth = Object(_helpers_audio_js__WEBPACK_IMPORTED_MODULE_0__[\"createSynth\"])();\n\nvar example1 = {\n  title: \"Example 1: Finding pitch in indeterminate sound (not done)\",\n  tag: \"example1\",\n  loops: [\n    {\n      btnText: \"Play loop\",\n      tempo: 80,\n      parts: [\n        {\n          name: \"Melody\",\n          pattern: [\"C4\", \"D4\", \"E4\", \"G4\", \"F4\", \"G4\", \"A4\", \"F4\",\n                    \"G4\", \"G4\", \"D4\", \"E4\", \"F4\", \"G4\", \"D4\", \"E4\" ],\n          source: synth,\n          show: false,\n        }\n      ]    \n    }\n  ]\n}\n\nvar example3 = {\n  title: \"Example 3: Different scales\",\n  tag: \"example3\",\n  loops: [\n    {\n      btnText: \"Play loop\",\n      tempo: 80,\n      parts: [\n        {\n          name: \"Melody\",\n          pattern: [\"C4\", \"D4\", \"E4\", \"G4\", \"F4\", \"G4\", \"A4\", \"F4\",\n                    \"G4\", \"G4\", \"D4\", \"E4\", \"F4\", \"G4\", \"D4\", \"E4\" ],\n          source: synth,\n          show: false,\n        }\n      ]    \n    }\n  ]\n}\n\nvar examples = {\n  1: example1,\n  3: example3\n}\n\n//# sourceURL=webpack:///./scripts/examples.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"examples\", function() { return examples; });\n/* harmony import */ var _helpers_audio_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers/audio.js */ \"./scripts/helpers/audio.js\");\n\n// var drumSampler = createDrumSampler();\nvar drumSampler = Object(_helpers_audio_js__WEBPACK_IMPORTED_MODULE_0__[\"createDrumSampler\"])();\nvar synth = Object(_helpers_audio_js__WEBPACK_IMPORTED_MODULE_0__[\"createSynth\"])();\n\nvar example1 = {\n  title: \"Example 1: Finding pitch in indeterminate sound (not done)\",\n  tag: \"example1\",\n  loops: [\n    {\n      btnText: \"Play loop\",\n      tempo: 80,\n      parts: [\n        {\n          name: \"Melody\",\n          pattern: [\"C4\", \"D4\", \"E4\", \"G4\", \"F4\", \"G4\", \"A4\", \"F4\",\n                    \"G4\", \"G4\", \"D4\", \"E4\", \"F4\", \"G4\", \"D4\", \"E4\" ],\n          source: drumSampler,\n          show: false,\n        }\n      ]    \n    }\n  ]\n}\n\nvar example3 = {\n  title: \"Example 3: Different scales\",\n  tag: \"example3\",\n  loops: [\n    {\n      btnText: \"Play loop\",\n      tempo: 80,\n      parts: [\n        {\n          name: \"Melody\",\n          pattern: [\"C4\", \"D4\", \"E4\", \"G4\", \"F4\", \"G4\", \"A4\", \"F4\",\n                    \"G4\", \"G4\", \"D4\", \"E4\", \"F4\", \"G4\", \"D4\", \"E4\" ],\n          source: synth,\n          show: false,\n        }\n      ]    \n    }\n  ]\n}\n\nvar examples = {\n  1: example1,\n  3: example3\n}\n\n//# sourceURL=webpack:///./scripts/examples.js?");
 
 /***/ }),
 
@@ -11205,11 +11229,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!**********************************!*\
   !*** ./scripts/helpers/audio.js ***!
   \**********************************/
-/*! exports provided: createSynth */
+/*! exports provided: createDrumSampler, createSynth */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createSynth\", function() { return createSynth; });\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n\n\n// import hihat from \"../../audio/hihat.mp3\";\n// import snare from \"../../audio/snare.mp3\";\n// import kick from \"../../audio/kick.mp3\";\n// import clave from \"../../audio/clave.mp3\";\n// import ding from \"../../audio/ding.mp3\";\n// import bongo1 from \"../../audio/bongo1.mp3\";\n// import bongo2 from \"../../audio/bongo2.mp3\";\n// import tom3 from \"../../audio/tom3.mp3\";\n// import cowbell from \"../../audio/cowbell.mp3\";\n// import riqqDum from \"../../audio/riqq-dum.mp3\";\n// import riqqTek from \"../../audio/riqq-tek.mp3\";\n\n\n// // drum sampler configuration\n// export function createDrumSampler() {\n//   const drumSampler = new Tone.Sampler({\n//     urls: {\n//       A1: hihat,\n//       A2: snare,\n//       A3: kick,\n//       A4: clave,\n//       A5: ding,\n//       A6: bongo1,\n//       A7: bongo2,\n//       A8: tom3,\n//       A9: cowbell,\n//       A10: riqqDum,\n//       A11: riqqTek,\n//     },\n//   }).toDestination();\n\n//   return drumSampler;\n// }\n\nfunction createSynth() {\n  const synth = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Synth\"]().toDestination();\n  return synth;\n}\n\n//# sourceURL=webpack:///./scripts/helpers/audio.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createDrumSampler\", function() { return createDrumSampler; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createSynth\", function() { return createSynth; });\n/* harmony import */ var tone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tone */ \"./node_modules/tone/build/esm/index.js\");\n/* harmony import */ var _audio_dog_mp3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../audio/dog.mp3 */ \"./audio/dog.mp3\");\n\n\n// import hihat from \"../../audio/hihat.mp3\";\n// import snare from \"../../audio/snare.mp3\";\n// import kick from \"../../audio/kick.mp3\";\n// import clave from \"../../audio/clave.mp3\";\n// import ding from \"../../audio/ding.mp3\";\n// import bongo1 from \"../../audio/bongo1.mp3\";\n// import bongo2 from \"../../audio/bongo2.mp3\";\n// import tom3 from \"../../audio/tom3.mp3\";\n// import cowbell from \"../../audio/cowbell.mp3\";\n// import riqqDum from \"../../audio/riqq-dum.mp3\";\n// import riqqTek from \"../../audio/riqq-tek.mp3\";\n\n\n\n\n// drum sampler configuration\nfunction createDrumSampler() {\n  const drumSampler = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Sampler\"]({\n    urls: {\n      \"C#4\": _audio_dog_mp3__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n    },\n  }).toDestination();\n\n  return drumSampler;\n}\n\nfunction createSynth() {\n  const synth = new tone__WEBPACK_IMPORTED_MODULE_0__[\"Synth\"]().toDestination();\n  return synth;\n}\n\n//# sourceURL=webpack:///./scripts/helpers/audio.js?");
 
 /***/ }),
 
@@ -11221,7 +11245,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Examples_Example_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Examples/Example.js */ \"./scripts/Examples/Example.js\");\n/* harmony import */ var _Examples_ExampleWithSlider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Examples/ExampleWithSlider.js */ \"./scripts/Examples/ExampleWithSlider.js\");\n/* harmony import */ var _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Examples/ExampleHeaderOnly.js */ \"./scripts/Examples/ExampleHeaderOnly.js\");\n/* harmony import */ var _Examples_ExampleWithScales_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Examples/ExampleWithScales.js */ \"./scripts/Examples/ExampleWithScales.js\");\n/* harmony import */ var _examples_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./examples.js */ \"./scripts/examples.js\");\n\n\n\n\n\n\n// part 1\nconst example1 = new _Examples_Example_js__WEBPACK_IMPORTED_MODULE_0__[\"Example\"](\"example1\", _examples_js__WEBPACK_IMPORTED_MODULE_4__[\"examples\"][1]);\nconst example2 = new _Examples_ExampleWithSlider_js__WEBPACK_IMPORTED_MODULE_1__[\"ExampleWithSlider\"](\"example2\", \"Drag to change the frequency\");\nconst example3 = new _Examples_ExampleWithScales_js__WEBPACK_IMPORTED_MODULE_3__[\"ExampleWithScales\"](\"example3\", _examples_js__WEBPACK_IMPORTED_MODULE_4__[\"examples\"][3]);\nconst example4 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_2__[\"ExampleHeaderOnly\"](\"example4\", \"Odd melodies\");\n\n// part 2\nconst example5 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_2__[\"ExampleHeaderOnly\"](\"example5\", \"Melodies, worn, surprise, jarring\");\nconst example6 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_2__[\"ExampleHeaderOnly\"](\"example6\", \"Same melodies, with countermelodies\");\n\n\n//# sourceURL=webpack:///./scripts/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Examples_Example_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Examples/Example.js */ \"./scripts/Examples/Example.js\");\n/* harmony import */ var _Examples_ExampleWithSampler_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Examples/ExampleWithSampler.js */ \"./scripts/Examples/ExampleWithSampler.js\");\n/* harmony import */ var _Examples_ExampleWithSlider_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Examples/ExampleWithSlider.js */ \"./scripts/Examples/ExampleWithSlider.js\");\n/* harmony import */ var _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Examples/ExampleHeaderOnly.js */ \"./scripts/Examples/ExampleHeaderOnly.js\");\n/* harmony import */ var _Examples_ExampleWithScales_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Examples/ExampleWithScales.js */ \"./scripts/Examples/ExampleWithScales.js\");\n/* harmony import */ var _examples_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./examples.js */ \"./scripts/examples.js\");\n\n\n\n\n\n\n\n// part 1\nconst example1 = new _Examples_ExampleWithSampler_js__WEBPACK_IMPORTED_MODULE_1__[\"ExampleWithSampler\"](\"example1\", _examples_js__WEBPACK_IMPORTED_MODULE_5__[\"examples\"][1]);\nconst example2 = new _Examples_ExampleWithSlider_js__WEBPACK_IMPORTED_MODULE_2__[\"ExampleWithSlider\"](\"example2\", \"Drag to change the frequency\");\nconst example3 = new _Examples_ExampleWithScales_js__WEBPACK_IMPORTED_MODULE_4__[\"ExampleWithScales\"](\"example3\", _examples_js__WEBPACK_IMPORTED_MODULE_5__[\"examples\"][3]);\nconst example4 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_3__[\"ExampleHeaderOnly\"](\"example4\", \"Odd melodies\");\n\n// part 2\nconst example5 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_3__[\"ExampleHeaderOnly\"](\"example5\", \"Melodies, worn, surprise, jarring\");\nconst example6 = new _Examples_ExampleHeaderOnly_js__WEBPACK_IMPORTED_MODULE_3__[\"ExampleHeaderOnly\"](\"example6\", \"Same melodies, with countermelodies\");\n\n\n//# sourceURL=webpack:///./scripts/script.js?");
 
 /***/ })
 
