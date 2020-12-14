@@ -933,6 +933,14 @@ input {
   cursor: pointer;
 }
 
+.button-container {
+  padding: 1em;
+  padding-bottom: 0em;
+}
+.button-container .btn {
+  margin-left: 1em;
+}
+
 .effects {
   border: 2px solid #570E51;
   border-radius: 5px;

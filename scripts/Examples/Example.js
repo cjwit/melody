@@ -178,7 +178,6 @@ export class Example {
       if (part.show) {
         this.visualCallback(part.name);
       }
-      console.log(note)
       part.source.triggerAttackRelease(note, "8n", time);
     }, part.pattern).start(0);
   }

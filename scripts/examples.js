@@ -23,7 +23,7 @@ var example1 = {
 }
 
 var example3 = {
-  title: "Example 3: Melody w/ random, major, lydian dominant, saba, pelog",
+  title: "Example 3: Different scales",
   tag: "example3",
   loops: [
     {

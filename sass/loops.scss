@@ -160,3 +160,15 @@ $red-5: #3A0035;
   background: $red-4;
   cursor: pointer;
 }
+
+//
+// button set (scales)
+//
+
+.button-container {
+  padding: 1em;
+  padding-bottom: 0em;
+  .btn {
+    margin-left: 1em;
+  }
+}
