@@ -1,7 +1,6 @@
 import { Example } from './Examples/Example.js';
 import { ExampleWithSampler } from './Examples/ExampleWithSampler.js';
 import { ExampleWithSlider } from './Examples/ExampleWithSlider.js';
-import { ExampleHeaderOnly } from './Examples/ExampleHeaderOnly.js';
 import { ExampleWithScales } from './Examples/ExampleWithScales.js';
 import { examples } from './examples.js';
 
