@@ -23,7 +23,7 @@
     "webpack": "npx webpack",
     "firefox": "open -a Firefox ./dist/index.html",
     "dev": "npm run firefox && npm-run-all --parallel sass webpack",
-    "build": "pandoc source/index.md -o dist/index.html -s -c styles.css --bibliography=/Users/cwituls/Zotero/library.bib",
+    "build": "pandoc source/index.md -o dist/index.html -s -c styles.css --bibliography=/Users/cwituls/Zotero/library.bib && pandoc source/part1.md -o dist/part1.html -s -c styles.css --bibliography=/Users/cwituls/Zotero/library.bib && pandoc source/part2.md -o dist/part2.html -s -c styles.css --bibliography=/Users/cwituls/Zotero/library.bib",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
