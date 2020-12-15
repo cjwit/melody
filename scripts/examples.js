@@ -53,7 +53,7 @@ var example4 = {
       parts: [
         {
           name: "Melody",
-          pattern: ["E5", "A4", "B4", "D5", null, "E5", "F5", null],
+          pattern: ["A5", "D5", "F5", "B5", "A5", "E5", "C5", "D5"],
           source: synth,
           show: false,
         }
@@ -72,13 +72,13 @@ var example5 = {
       parts: [
         {
           name: "Melody",
-          pattern: ["E5", "A4", "B4", "D5", null, "E5", "F5", null],
+          pattern: ["A5", "D5", "F5", "B5", "A5", "E5", "C5", "D5"],
           source: synth,
           show: false,
         },
         {
           name: "Counter",
-          pattern: ["C4", null, "G4", null, "F4", null, "G4", "D4"],
+          pattern: ["C5", "B4", "A4", "E4", "F4", "C4", "A4", "B4"],
           source: synth,
           show: false,
         }
