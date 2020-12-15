@@ -43,7 +43,53 @@ var example3 = {
   ]
 }
 
+var example4 = {
+  title: "Example 4: A disjointed melody",
+  tag: "example4",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 80,
+      parts: [
+        {
+          name: "Melody",
+          pattern: ["E5", "A4", "B4", "D5", null, "E5", "F5", null],
+          source: synth,
+          show: false,
+        }
+      ]    
+    }
+  ]
+}
+
+var example5 = {
+  title: "Example 5: With a counter melody",
+  tag: "example5",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 80,
+      parts: [
+        {
+          name: "Melody",
+          pattern: ["E5", "A4", "B4", "D5", null, "E5", "F5", null],
+          source: synth,
+          show: false,
+        },
+        {
+          name: "Counter",
+          pattern: ["C4", null, "G4", null, "F4", null, "G4", "D4"],
+          source: synth,
+          show: false,
+        }
+      ]      
+    }
+  ]
+}
+
 export var examples = {
   1: example1,
-  3: example3
+  3: example3,
+  4: example4,
+  5: example5
 }

@@ -11,5 +11,5 @@ const example2 = new ExampleWithSlider("example2", "Drag to change the frequency
 const example3 = new ExampleWithScales("example3", examples[3]);
 
 // part 2
-const example4 = new ExampleHeaderOnly("example4", "Melodies, worn, surprise, jarring");
-const example5 = new ExampleHeaderOnly("example5", "Same melodies, with countermelodies");
+const example4 = new Example("example4", examples[4]);
+const example5 = new Example("example5", examples[5]);
